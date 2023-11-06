@@ -30,7 +30,7 @@ html {
 
 .logo {
     margin-top: 15px;
-    background-image: url('./images/microsoftlogo.png');
+    background-image: url('../images/microsoftlogo.png');
     height: 22px;
     width: 108px;
     background-size: cover;
