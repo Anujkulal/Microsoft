@@ -24,6 +24,7 @@ html {
     justify-content:space-around;
 }
 
+
 .navlogo {
     height: 5rem;
     width: 16.1rem;
@@ -47,6 +48,45 @@ html {
     width: 842px;
 }
 
+/* responsive code for navbar  */
+@media all and ((max-width:412px)){
+    .navbar {
+        height: 8rem;
+        width: 152rem;
+        font-size: 2.5rem;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navlogo {
+        height: 5rem;
+        width: 16.1rem;
+        margin-left: 44px;
+        /* align-items: center;  */
+        
+    }
+
+    .logo {
+        margin-top: 2.9rem;
+    background-image: url('./images/microsoftlogo.png');
+    height: 2.9rem;
+    width: 14.1rem;
+        background-size: cover;
+        
+    }
+
+    .panel p{
+        height: 6rem;
+        width: 152rem;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+    justify-content: center;
+    }
+
+    
+}
+
 .address{
     margin-left: 20px;
     /* padding: 5px; */
@@ -67,7 +107,7 @@ html {
     width: 152rem;
     background-color:#0067b8;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.7rem;
     font-weight: bold;
     align-items: center;
     justify-content: center;
@@ -98,13 +138,14 @@ html {
 }
 
 .para1{
-    font-size: 2.3125rem;
+    font-size: 3.3125rem;
     font-weight: 600;
     margin-bottom: 1.25rem;
 } 
 
 .para2{
     margin-bottom: 1.5rem;
+    font-size: 1.5rem;
 }
 
 .btn{
@@ -117,7 +158,7 @@ html {
     border-radius: 0.125rem;
     cursor: pointer;
     padding: 0.625rem 0.75rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 1;
 }
 
@@ -148,7 +189,7 @@ html {
 }
 
 .banner i{
-    font-size: 47px;
+    font-size: 4.7rem;
 }
 
 .item{
@@ -159,6 +200,7 @@ html {
 
 .banner-para{
     margin-top: 17px;
+    font-size: 1.5rem;
 }
 
 .banner-para a{
@@ -194,17 +236,19 @@ html {
 
 
 .darkpara{
-    font-size: 1.8125rem;
+    font-size: 3.3125rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
 .box-para{
-    line-height: 1.5rem;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
 }
 
 .learnmore{
     margin-top: 1rem;
+    font-size: 1.5rem;
 }
 
 .learnmore a{
@@ -241,13 +285,14 @@ html {
 }
 
 .banner2-para1{
-    font-size: 2.3125rem;
+    font-size: 3.3125rem;
     font-weight: 600;
     margin-bottom: 1.25rem;
 }
 
 .banner2-para2{
-   line-height: 1.5rem;
+    font-size: 1.5rem;
+   line-height: 2.5rem;
     margin-bottom: 1.25rem;
 }
 
@@ -260,7 +305,7 @@ html {
     border-radius: 0.125rem;
     cursor: pointer;
     padding: 0.625rem 0.75rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 1;
 }
 
@@ -292,16 +337,18 @@ html {
 
 .business-heading{
     display: flex;
+    width: 23rem;
+    height: 3rem;
     align-items: center;
     justify-content: center;
     /* position: absolute; */
-    font-size: 2.3125rem;
+    font-size: 3.3125rem;
     margin-bottom: 1.25rem;
-    margin-top: 1.25rem;
+    margin-top: 2.25rem;
     font-weight: 600;
     /* text-align: left; */
     margin-right: 119.9rem;
-    margin-left: 20rem;
+    margin-left: 3rem;
 }
 
 .follow{
@@ -315,10 +362,11 @@ html {
 }
 .follow-para{
     padding: 10px;
+    font-size: 1.5rem;
 }
 
 .isize{
-    font-size: 26px;
+    font-size: 2.6rem;
 }
 
 .back-to-top{
