@@ -30,7 +30,7 @@ html {
 
 .logo {
     margin-top: 15px;
-    background-image: url('../images/microsoftlogo.png');
+    background-image: url('./images/microsoftlogo.png');
     height: 22px;
     width: 108px;
     background-size: cover;
@@ -220,7 +220,7 @@ html {
 }
 
 .banner2-img{
-    background-image: url('/images/banner2.png');
+    background-image: url('./images/banner2.png');
     background-size: cover;
     width: 1367px;
     height: 514px;
